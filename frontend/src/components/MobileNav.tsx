@@ -4,6 +4,7 @@ import { Separator } from "./ui/separator";
 import { Button } from "./ui/button";
 
 const MobileNav = () => {
+    console.log("the button is rerendering")
    return(
     <Sheet>
         <SheetTrigger>
